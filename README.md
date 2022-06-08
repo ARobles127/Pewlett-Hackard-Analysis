@@ -68,4 +68,4 @@ group by title
 order by count desc;
 ```
 
-![Potential_mentorship]()
+![Potential_mentorship](https://github.com/ARobles127/Pewlett-Hackard-Analysis/blob/main/Potential_mentorship.png)
