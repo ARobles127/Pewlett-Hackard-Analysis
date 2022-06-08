@@ -57,7 +57,12 @@ This table helps  identify employees who are eligible to participate in a mentor
 
 
 ## Summary
-- How many roles will need to be filled as the "silver tsunami" begins to make an impact? 72,458 roles need to be filled before employees start the retirement process. 
+- How many roles will need to be filled as the "silver tsunami" begins to make an impact? 72,458 roles need to be filled before employees start the retirement process. The following code helps to determine the total number of employees about to retire. 
+
+```
+select sum (count)
+from retiring_titles
+```
 
 - Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees? There are 72,458 employees ready to retire and the number of qualified personnel  that could be mentored is significantly lower, 1,549, which means that there will be enough qualified  retirement-ready employees that could switch to part time to allow the new hires or internal promotions to step into the new roles with confidence. The following query helps us to pull a table with the number of  the titles and number of potential employees that could participate in the mentorship program. 
 
